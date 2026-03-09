@@ -1,0 +1,1 @@
+import"./index.esm-BaZEdZ5T.js";const n=async(i,l,e)=>{try{return e.value={},await l.validate(i,{abortEarly:!1}),!0}catch(a){return a.name==="ValidationError"&&Array.isArray(a.inner)?a.inner.forEach(t=>{e.value[t.path]=t.message}):e.value._global=a.message||"Validation failed",!1}};export{n as v};
